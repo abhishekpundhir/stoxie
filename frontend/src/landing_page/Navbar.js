@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../landing_page/stylesheet.css"
 function Navbar() {
   return (
@@ -6,14 +7,14 @@ function Navbar() {
       className="navbar navbar-expand-lg  xx"
     >
       <div className="container  "id="k">
-        <a className="navbar-brand fs-4 " href="#" id="k">
+        <Link className="navbar-brand fs-4 " to="/" id="k">
           <img
             src="media/img/navlogo.png"
             style={{ width: "50px", fontWeight:"400"}}
             alt="Logo"
           />
           &nbsp;   <b>Stoxie</b>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -30,29 +31,29 @@ function Navbar() {
           <form className="d-flex" role="search">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item pe-2">
-                <a className="nav-link active pe-2 fff" aria-current="page" href="#">
+                <Link className="nav-link active pe-2 fff" aria-current="page" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item pe-2 fff">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/support">
                   Support
-                </a>
+                </Link>
               </li>
               <li className="nav-item pe-2 fff">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/product">
                   Product
-                </a>
+                </Link>
               </li>
               <li className="nav-item pe-2 fff">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/pricing">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="nav-item fff">
-                <a className="nav-link active" href="#">
+                <Link className="nav-link active" to="/signup">
                   Signup
-                </a>
+                </Link>
               </li>
             </ul>
           </form>
