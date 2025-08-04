@@ -14,15 +14,15 @@ function Pricing() {
 
                     <div className='row text-center  mb-5'>
 
-                        <div className='col r p-4'>
-                            <h1  className='mb-3'><span>&#8377;</span>0 </h1>
-                            <p>Free account opening</p>
+                        <div className='col r p-4 background-fade'>
+                            <h1  className='mb-3 text-fade2'><span>&#8377;</span>0 </h1>
+                            <p className='text-fade2'>Free account opening</p>
                         </div> 
                      
 
-                        <div className='col r  p-4'>
-                        <h1 className='mb-3'><span>&#8377;</span>20 </h1>
-                        <p>Intraday and F&O</p>
+                        <div className='col r  p-4 background-fade'>
+                        <h1 className='mb-3 text-fade2'><span>&#8377;</span>20 </h1>
+                        <p className='text-fade2'>Intraday and F&O</p>
                     </div>
 
                     </div>

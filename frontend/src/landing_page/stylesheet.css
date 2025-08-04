@@ -26,7 +26,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px
 
 
 
-
+.shadow-2{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
 
 
 .xyh{
@@ -44,4 +44,96 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px
 .alink a{
     text-decoration: none;
     color: black;
+}
+
+
+#founderProfil{
+    width: 65%;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.flex-between{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+.pt{
+    padding-top: 3rem;
+    /* height: 90vh;
+    max-width: 80vw; */
+}
+.mt{
+    margin-top: 3rem;
+}
+
+#grediant-text{
+  background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(240, 61%, 70%, 1) 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important; /* Optional, but helps control spacing */
+
+  /* font-family: "Roboto Condensed", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important; */
+
+}
+.koko{
+    /* padding-top: 122px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding-bottom: 122px; */
+    font-size: 4rem;
+    font-family: "Roboto Condensed", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+
+.background_{
+    /* background-color: rgba(26, 26, 26, 1); */
+    background: transparent;
+}
+
+.navbarD_{
+    padding: 12px;
+    margin: 10px;
+    border-radius: 20px;
+
+}
+.text-white{
+    color: white !important;
+}
+
+
+.fff a:hover{
+    background: linear-gradient(90deg, hsla(211, 96%, 62%, 1) 0%, hsla(240, 61%, 70%, 1) 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important; /* Optional, but helps control spacing */
+}
+/* .kp{
+    background: url("home/heroBackground.jpg");
+} */
+
+
+
+.text-fade{
+    color: rgb(161, 161, 161) !important;
+}
+.text-fade2{
+    color: rgb(194, 194, 194) !important;
+}
+
+.background-fade{
+    background-color: rgba(29, 29, 29, 1) !important;
 }
