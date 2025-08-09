@@ -9,8 +9,8 @@ function Navbar() {
       <div className="container  "id="k">
         <Link className="navbar-brand fs-4 " to="/" id="k">
           <img
-            src="media/img/navlogo.png"
-            style={{ width: "50px", fontWeight:"400"}}
+            src="media/img/logo2.png"
+            style={{ width: "50px", fontWeight:"400" , marginBottom:"5px"}}
             alt="Logo"
           />
           &nbsp;   <b id="grediant-text" style={{fontSize:"26px"}}>Stoxie</b>

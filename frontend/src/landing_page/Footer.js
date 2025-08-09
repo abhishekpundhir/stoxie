@@ -6,7 +6,7 @@ function Footer() {
             <div className="container text-white mt-5 p-2">
                 <div className="row mt-5">
                     <div className="col">
-                        <img src="media/img/navlogo.png" style={{ width: "50px", fontWeight: "400" }} />  &nbsp;   <b id="grediant-text">Stoxie</b>
+                        <img src="media/img/logo2.png" style={{ width: "50px", fontWeight:"400" , marginBottom:"5px"}} />  &nbsp;   <b id="grediant-text">Stoxie</b>
                         <p className="text-fade2">
                             &copy; 2025 - 20235, Stoxie Production Ltd. All rights reserved.
                         </p>

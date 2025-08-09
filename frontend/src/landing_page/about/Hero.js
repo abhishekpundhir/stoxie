@@ -24,7 +24,7 @@ function Hero() {
                         That's why we lead open educational and community initiatives designed to empower the next generation of traders and investors — no gatekeeping, just growth.<br /><br />
                         Through <strong>Stoxie Ventures</strong>, our fintech fund and incubator, we actively back startups shaping the future of finance, technology, and wealth creation — all with the aim of expanding access to global capital markets.<br/><br/>
                         But we're not just building products — we're building a movement.<br /><br />
-                        Stay updated on what we're crafting, launching, and exploring by following our <a href="#">blog</a>, diving into <a href="#">media features</a>, or exploring the <a href="#">philosophies</a> that power the Stoxie universe.
+                        Stay updated on what we're crafting, launching, and exploring by following our <a className='text-fade2'   href="#">blog</a>, diving into <a className='text-fade2'   href="#">media features</a>, or exploring the <a className='text-fade2'   href="#">philosophies</a> that power the Stoxie universe.
                     </p>
                     </div>
                 </div>

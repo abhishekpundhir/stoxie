@@ -1,9 +1,9 @@
 import React from "react";
-
+import "../stylesheet.css"
 function LeftSection({
   imageURL,
   productName,
-  productDescription, // Fixed typo
+  productDesription,
   tryDemo,
   learnMore,
   googlePlay,
@@ -12,41 +12,26 @@ function LeftSection({
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-6">
-          <img src={imageURL} alt={`${productName} preview`} className="img-fluid" />
+        <div className="col-6 text-center">
+          <img src={imageURL} style={{borderRadius:"20%", width:"80%" }} />
         </div>
-        <div className="col-md-6 p-5 mt-5">
+        <div className="col-6 p-5 mtx alink">
           <h1>{productName}</h1>
-          <p>{productDescription}</p>
+          <p className="text-fade2">{productDesription}</p>
           <div>
-            <a href={tryDemo} target="_blank" rel="noopener noreferrer">
-              Try Demo
-            </a>
-            <a
-              href={learnMore}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ marginLeft: "50px" }}
-            >
+            <a  className="text-fade2" href={tryDemo}>Try Demo</a>
+            <a className="text-fade2" href={learnMore} style={{ marginLeft: "50px" , }}>
               Learn More
             </a>
           </div>
           <div className="mt-3">
-            <a href={googlePlay} target="_blank" rel="noopener noreferrer">
-              <img
-                src="media/img/googlePlayBadge.svg"
-                alt="Download on Google Play"
-              />
+            <a href={googlePlay}>
+              <img src="media/img/googlePlayBadge.svg" />
             </a>
-            <a
-              href={appStore}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ marginLeft: "50px" }}
-            >
+            <a href={appStore}>
               <img
                 src="media/img/appstoreBadge.svg"
-                alt="Download on the App Store"
+                style={{ marginLeft: "50px" }}
               />
             </a>
           </div>
